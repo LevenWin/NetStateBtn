@@ -3,7 +3,7 @@
 
 模仿网易的btn在没网络下，自动更换属性。demo有点粗糙，不过展现了其中的原理。只要要添加一个分类。并且在添加Btn的时候写上 没有图片要展示的image即可。
 
-- (void)viewDidLoad {
+	- (void)viewDidLoad {
     [super viewDidLoad];
     self.btn.noNetImage=@"big-Star.png";
     self.btn.netSensitive=YES;
@@ -11,12 +11,13 @@
         NSLog(@"没有网络拉!!!");
     };
     // Do any additional setup after loading the view, typically from a nib.
-}
-- (IBAction)click:(id)sender {
-    NSLog(@"点击!");
+	}
+	- (IBAction)click:(id)sender {
+    	NSLog(@"点击!");
     
-}
+	}
 
+ 
 
 
 
